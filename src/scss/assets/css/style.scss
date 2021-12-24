@@ -1,0 +1,44 @@
+@use '/_foundation/*';
+@use '/_component/*';
+
+h1 {
+  margin-bottom: 1em;
+}
+
+main {
+  padding: 1em;
+}
+
+.img-loop {
+  overflow: hidden;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.img-wrap {
+  display: flex;
+  // 中の要素の2倍でサイズを指定する
+  width: 300%;
+  animation: loop 10s linear infinite;
+}
+
+.img-set {
+  display: flex;
+  // サイズを指定
+  width: 150%;
+}
+
+@keyframes loop {
+  0% {
+    transform: translate(0%);
+  }
+  100% {
+    // 2個分のうち片方が動けば良いので50%
+    transform: translate(-50%);
+  }
+}

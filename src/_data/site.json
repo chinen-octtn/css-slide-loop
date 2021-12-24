@@ -1,0 +1,22 @@
+{
+  "url": "https://chinen-octtn.github.io/img-change-round-overlay",
+  "name": "CSS アニメーションの自動スライド",
+  "viewport": "width=device-width",
+  "description": "画像を横に流してアニメーションするサンプルです。",
+  "keywords": "",
+  "lang": "ja",
+  "locale": "ja_JP",
+  "siteImage": "/ogp.png",
+  "fbAppId": "",
+  "fbAdmins": "",
+  "twitterCard": "summary_large_image",
+  "twitterSite": "",
+  "/": {
+    "name": "CSS アニメーションの自動スライド",
+    "description": "画像を横に流してアニメーションするサンプルです。",
+    "keywords": "",
+    "ogp": "",
+    "canonical": "",
+    "alternate": ""
+  }
+}
